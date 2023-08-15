@@ -1,0 +1,53 @@
+{
+    "name": "zanysoft/laravel-serpapi",
+    "keywords": [
+        "Google",
+        "Serp",
+        "SerpApi",
+        "Search",
+        "Result",
+        "Google",
+        "Youtube",
+        "Walmart",
+        "Yandex",
+        "naver",
+        "duckduckgo",
+        "apple",
+        "naver",
+        "homedepot",
+        "search",
+        "REST",
+        "api",
+        "curl",
+        "JSON",
+        "XML"
+    ],
+    "description": "Get Google, Bing, Baidu, Ebay, Yahoo, Yandex, Home depot, Naver, Apple, Duckduckgo, Youtube search results via SerpApi.com",
+    "homepage": "http://github.com/zanysoft/laravel-serpapi",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mubashar Ahmad",
+            "email": "info@zanysoft.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZanySoft\\LaravelSerpApi\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZanySoft\\LaravelSerpApi\\SerpApiServiceProvider"
+            ],
+            "aliases": {
+                "SerpApi": "ZanySoft\\LaravelSerpApi\\Facades\\SerpApi"
+            }
+        }
+    }
+}
