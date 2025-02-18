@@ -28,9 +28,12 @@
     "authors": [
         {
             "name": "Mubashar Ahmad",
-            "email": "info@zanysoft.net"
+            "email": "zanysoft@outlook.com"
         }
     ],
+    "support": {
+        "email": "zanysoft@outlook.com"
+    },
     "require": {
         "php": ">=5.5"
     },
